@@ -13,8 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Les Jardins d'Adrien",
-  description: "Un paradis v\xE9g\xE9tal au coeur de la nature",
+  title: "Les Jardins d'Adrien | Paysagisme et entretien",
+  description:
+    "Les Jardins d'Adrien propose la création et l'entretien d'espaces verts pour sublimer votre extérieur.",
+  keywords: [
+    "paysagiste",
+    "entretien jardin",
+    "aménagement paysager",
+    "Les Jardins d'Adrien",
+  ],
 };
 
 export default function RootLayout({
@@ -23,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
